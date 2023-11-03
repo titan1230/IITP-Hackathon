@@ -18,7 +18,8 @@ const config: Config = {
         Helveltica : ["Helvetica"],
         HelveticaCompressed : ["Helvetica-Compressed"],
         HelveticaLight : ["Helvetica-Light"],
-        HelveticaBold : ["Helvetica-Bold"]
+        HelveticaBold : ["Helvetica-Bold"],
+        createRound: ['Crete Round', "serif"]
       }
     },
   },

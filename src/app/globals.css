@@ -22,6 +22,8 @@
   src: url("../../public/fonts/Helvetica-Bold.ttf")
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
