@@ -1,5 +1,5 @@
 "use client";
-import Link from 'next/link'
+import Link from "next/link";
 
 import mainLogo from "../../public/main_logo.png";
 import Image from "next/image";
@@ -19,10 +19,21 @@ export default function Navbar() {
                 </div>
 
                 <div className="w-[950px] h-[60px] bg-white/30 text-black opacity-100 rounded-full backdrop-filter backdrop-blur-sm font-semibold text-xl flex items-center justify-around font-createRound">
-                    <Link className="cursor-pointer" href="/">Home</Link>
-                    <Link className="cursor-pointer" href={'/care'}>Care</Link>
-                    <Link className="cursor-pointer" href={'/volunteering'}>Volunteer</Link>
-                    <Link className="cursor-pointer" href={'/doctor'}>Find Doctor</Link>
+                    <Link className="cursor-pointer" href="/">
+                        Home
+                    </Link>
+                    <Link className="cursor-pointer" href="/dash">
+                        Dashboard
+                    </Link>
+                    <Link className="cursor-pointer" href={"/diets"}>
+                        Diet
+                    </Link>
+                    <Link className="cursor-pointer" href={"/volunteering"}>
+                        Volunteer
+                    </Link>
+                    <Link className="cursor-pointer" href={"/history"}>
+                        History
+                    </Link>
 
                     <div className="flex space-x-3">
                         {/* SEARCH BAR */}

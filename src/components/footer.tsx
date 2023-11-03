@@ -16,7 +16,7 @@ export default function Footer() {
         <div>
             <div className="w-full bg-[#1D2869] absolute h-[430px] overflow-hidden">
                 {/* Div ka maal */}
-                <div className=" mx-4 my-32 flex place-content-around justify-center items-center space-x-40 ">
+                <div className=" mx-4 my-16 flex place-content-around justify-center items-center space-x-40">
                     <div className="px-4 mx-10 my-2 flex flex-col place-content-around justify-center items-center space-x-16 bg-white rounded-full">
                         <Image
                             src={mainLogo}
@@ -69,7 +69,7 @@ export default function Footer() {
                     height={289}
                     width={488}
                     alt="Lines"
-                    className="absolute bottom-0 left-20 "
+                    className="absolute bottom-0 left-20"
                 />
             </div>
         </div>
