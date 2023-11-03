@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Helvetica';
+  src: url("../../public/fonts/Helvetica.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Helvetica-Compressed';
+  src: url("../../public/fonts/helvetica-compressed-5871d14b6903a.otf");
+}
+
+@font-face {
+  font-family: 'Helvetica-Light';
+  src: url("../../public/fonts/helvetica-light-587ebe5a59211.ttf")
+}
+
+@font-face {
+  font-family: 'Helvetica-Bold';
+  src: url("../../public/fonts/Helvetica-Bold.ttf")
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
